@@ -1,0 +1,42 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #010101;
+}
+
+#keyboard {
+	bottom: 0px;
+	position: absolute;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}
+#keyboard ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 1%;
+	width: 100%;
+	overflow: hidden;
+
+}
+#keyboard ul li {
+	display: inline-block;
+	width: 7.5%;
+	margin-left: 0.2%;
+	background: #302F37;
+	position: relative;
+	color: #FFFFFF;
+	line-height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+}
+#keyboard ul li:active {
+	background: #FF0000;
+}
+#keyboard ul li div {
+	margin-top: 50%;
+}
